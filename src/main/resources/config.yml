@@ -1,0 +1,29 @@
+# ───────────────────────────────────────
+#   NukkitWorlds Configuration
+#   Author: Vaktari-Dev
+# ───────────────────────────────────────
+
+debug: false
+
+# ── Disabled Mob Spawn ─────────────────
+# List of worlds where mob spawning is disabled
+disabled-mob-spawn:
+  - "world"
+  - "nether"
+  - "the_end"
+
+# ── Disabled Leaf Decay ────────────────
+# List of worlds where leaf decay is disabled
+disabled-leaf-decay:
+  - "world"
+
+# ── Disabled Fire ──────────────────────
+# List of worlds where fire spread and ignition are disabled
+disabled-fire:
+  - "world"
+
+# ── Disabled Lightning Fire ────────────
+# List of worlds where lightning cannot start fires
+disabled-lightning-fire:
+  - "world"
+  - "nether"

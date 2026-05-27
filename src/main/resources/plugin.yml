@@ -1,0 +1,19 @@
+name: NukkitWorlds
+version: 1.0.0
+main: com.nukkitworlds.NukkitWorlds
+api: ["1.0.13"]
+load: POSTWORLD
+author: Vaktari-Dev
+description: World management plugin for Nukkit-PM1E and Nukkit-MOT/Lumi
+website: https://github.com/Vaktari-Dev/NukkitWorlds
+
+permissions:
+  nukkitworlds.admin:
+    description: Access to all NukkitWorlds commands
+    default: op
+  nukkitworlds.reload:
+    description: Allows /nworlds reload
+    default: op
+  nukkitworlds.info:
+    description: Allows /nworlds info
+    default: op

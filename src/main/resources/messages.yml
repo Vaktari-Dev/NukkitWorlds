@@ -1,0 +1,17 @@
+# ───────────────────────────────────────
+#  NukkitWorlds Messages
+#  Author: Vaktari-Dev
+#  Color codes: &0-&f, &l, &m, &n, &o, &r
+# ───────────────────────────────────────
+
+prefix: "&8[&3NukkitWorlds&8] &r"
+
+no-permission: "{prefix}&cYou do not have permission to use this command."
+
+reload-success: "{prefix}&aConfiguration reloaded successfully."
+reload-fail: "{prefix}&cFailed to reload configuration. Check console for errors."
+
+info-header: "{prefix}&b=== &3World Configuration &b==="
+info-entry: " &7- &f{world}&8: &7spawn={spawn}&8, decay={decay}&8, fire={fire}&8, lightning={lightning}"
+info-no-worlds: "{prefix}&7No worlds configured."
+info-footer: "{prefix}&b=== &3{count} &bworlds total ==="
